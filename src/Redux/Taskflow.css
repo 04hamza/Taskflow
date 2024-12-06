@@ -1,0 +1,143 @@
+.app{
+    padding: 10px;
+}
+body{
+    background-color: #7fa99b;
+}
+.app .title{
+    font-size: 45px;
+    text-align: center;
+    padding: 5px;
+}
+.app .container{
+    display: flex;
+    justify-content: center;
+}
+.app .container .action{
+    width: 400px;
+    margin-top: 10px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: #394a51;
+}
+.app .container .action form{
+    display: flex;
+    flex-direction: column;
+}
+.app .container .action form label{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+.app .container .action form input,textarea{
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+textarea{
+    height: 100px;
+}
+.app .container .action form .btns{
+    display: flex;
+    margin-top: 5px;
+    justify-content: end;
+}
+.app .container .action form .btns button{
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+}
+.app .taskflow{
+    display: flex;
+    padding: 10px;
+    width: 1200px;
+    justify-content: space-around;
+}
+.app .taskflow .tasks{
+    width: 30%;
+    padding: 10px;
+    height: max-content;
+    border-radius: 5px;
+    background-color: #394a51;
+}
+.app .taskflow .tasks h2{
+    font-size: 20px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.app .taskflow .tasks .task{
+    width: 90%;
+    height: max-content;
+    margin-top: 10px;
+    position: relative;
+    left: 50%;
+    padding: 20px;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.app .taskflow .tasks .task p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.app .taskflow .tasks .task .infotask{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+.app .taskflow .tasks .task .infotask div{
+    margin-right: 20px;
+}
+.app .taskflow .tasks .task .buttons{
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  justify-items: end;
+}
+.app .taskflow .tasks .task button{
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    background-color: #394a51;
+}
+.bi{
+    width:30px;
+    height: 30px;
+    color: white;
+}
+.add{
+    background-color: #394a51;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.add .addbtn{
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.add .addbtn .bi{
+    width:40px;
+    height: 40px;
+    color: rgb(130, 130, 130);
+}
